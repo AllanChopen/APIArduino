@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "APIArduino.Controllers.TemperaturaController",
+    "Method": "GetAll",
+    "RelativePath": "api/Temperatura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIArduino.Controllers.TemperaturaController",
+    "Method": "Post",
+    "RelativePath": "api/Temperatura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "temp",
+        "Type": "APIArduino.Models.Temperatura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIArduino.Controllers.UltrasonicoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Ultrasonico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIArduino.Controllers.UltrasonicoController",
+    "Method": "Post",
+    "RelativePath": "api/Ultrasonico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sensor",
+        "Type": "APIArduino.Models.Ultrasonico",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

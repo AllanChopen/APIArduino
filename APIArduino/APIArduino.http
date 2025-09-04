@@ -1,0 +1,6 @@
+@APIArduino_HostAddress = http://localhost:5032
+
+GET {{APIArduino_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
